@@ -74,7 +74,7 @@ let scoringAlgorithms= [
     ];
 function scorerPrompt() {
    console.log("\nWhich scoring algorithm would you like to use?\n");
-   for (let i=0; i< scoringAlgorithms.length;i++){
+   for (let i=0; i< scoringAlgorithms.length;i++ ){
       console.log(`${i}-${scoringAlgorithms[i].name}: ${scoringAlgorithms[i].description}`)
    }
     
